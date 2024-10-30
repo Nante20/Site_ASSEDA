@@ -1,0 +1,45 @@
+/* Style du conteneur intro */
+.intro {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Fond blanc avec légère transparence */
+  border-radius: 8px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
+}
+
+/* Style des titres */
+.intro h1 {
+  font-size: 2.5em; /* Taille du titre */
+  color: #333; /* Couleur du texte */
+  margin-bottom: 20px; /* Espacement sous le titre */
+  text-align: center; /* Alignement du texte au centre */
+}
+
+/* Style du paragraphe */
+.intro p {
+  font-size: 1.1em; /* Taille de la police */
+  line-height: 1.8; /* Hauteur de ligne pour améliorer la lisibilité */
+  color: #666; /* Couleur du texte */
+  margin-bottom: 20px; /* Espacement sous le paragraphe */
+  text-align: justify; /* Justifie le texte pour une présentation soignée */
+  padding: 0 15px; /* Espacement horizontal */
+  border-left: 4px solid #007bff; /* Bordure gauche colorée pour mettre en avant le texte */
+  background: #f9f9f9; /* Fond légèrement gris pour le paragraphe */
+  border-radius: 5px; /* Coins arrondis pour le fond du paragraphe */
+}
+
+/* Style de l'image */
+.responsive-image {
+  width: 100%; /* L'image prend toute la largeur du conteneur */
+  height: auto; /* Conserver le ratio de l'image */
+  margin: 20px 0; /* Espacement autour de l'image */
+  border-radius: 8px; /* Coins arrondis pour l'image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée légère */
+}

@@ -1,0 +1,92 @@
+/* Reset de base pour éliminer les marges et les paddings par défaut */
+body,
+h1,
+h4,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Footer */
+/* Style général du footer */
+footer {
+  background-color: #8d8a95; /* Fond sombre pour le footer */
+  color: #f4f4f4; /* Couleur de texte claire pour le contraste */
+  padding: 20px 0; /* Espacement vertical autour du contenu */
+}
+
+/* Conteneur principal du footer */
+.container {
+  width: 90%; /* Largeur du conteneur pour s'adapter aux écrans */
+  max-width: 1200px; /* Largeur maximale pour les grands écrans */
+  margin: 0 auto; /* Centrage horizontal */
+  display: flex; /* Utilisation de Flexbox pour la disposition */
+  justify-content: space-between; /* Espacement égal entre les sections */
+  flex-wrap: wrap; /* Permet aux sections de passer à la ligne si nécessaire */
+}
+
+/* Sections du footer */
+.footer-section {
+  flex: 1; /* Chaque section prend une place égale */
+  margin: 0 10px; /* Espacement entre les sections */
+}
+
+/* Titres des sections du footer */
+.footer-h4 {
+  font-size: 1.2em; /* Taille de police pour les titres */
+  margin-bottom: 10px; /* Espacement sous le titre */
+  border-bottom: 1px solid #f4f4f4; /* Ligne sous le titre */
+  padding-bottom: 5px; /* Espacement sous la ligne */
+}
+
+/* Paragraphes du footer */
+.footer-para {
+  font-size: 0.9em; /* Taille de police adaptée */
+  margin-bottom: 10px; /* Espacement entre les paragraphes */
+  color: #f4f4f4;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+/* Liste des liens dans le footer */
+.footer-ul {
+  list-style: none; /* Suppression des puces */
+  padding: 0; /* Suppression du padding par défaut */
+}
+
+.footer-ul li {
+  margin-bottom: 8px; /* Espacement entre les éléments de la liste */
+}
+
+.footer-ul a {
+  color: #f4f4f4; /* Couleur des liens */
+  text-decoration: none; /* Suppression du soulignement des liens */
+}
+
+.footer-ul a:hover {
+  text-decoration: underline; /* Soulignement au survol */
+}
+
+/* Section de bas du footer */
+.footer-bottom {
+  background-color: #222; /* Fond légèrement plus sombre */
+  color: #f4f4f4; /* Couleur de texte claire */
+  text-align: center; /* Centrage du texte */
+  padding: 10px 0; /* Espacement vertical */
+  margin-top: 20px; /* Espacement au-dessus de la section du bas du footer */
+}
+.footer-bottom p {
+  color: #f4f4f4; /* Couleur de texte claire */
+  text-align: center; /* Centrage du texte */
+  padding: 10px 0; /* Espacement vertical */
+  margin-top: 20px; /* Espacement au-dessus de la section du bas du footer */
+}

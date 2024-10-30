@@ -1,0 +1,53 @@
+/* Reset de base pour éliminer les marges et les paddings par défaut */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+/* Style pour le body avec image de fond */
+body {
+  background-image: url("../images/main_solidaire.jpg");
+  background-size: 40%;
+  background-position: center;
+  background-repeat: space;
+}
+
+/* Contenu global */
+.resume {
+  width: 80%;
+
+  margin: 40px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Fond semi-transparent pour le texte */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style de la page principale */
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #555;
+  text-align: justify;
+}

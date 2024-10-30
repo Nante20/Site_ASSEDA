@@ -1,0 +1,62 @@
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style de la navigation */
+nav {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Style de la liste */
+nav ul {
+  list-style-type: none; /* Enlever les puces */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Affichage en ligne */
+  justify-content: space-around; /* Espace entre les éléments */
+}
+
+/* Style des éléments de la liste */
+nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style des liens */
+nav ul li a {
+  text-decoration: none; /* Enlever la ligne sous le texte */
+  color: #7f53ac; /* Couleur violette pour les liens */
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Effet au survol */
+nav ul li a:hover {
+  background-color: #7f53ac;
+  color: #ffffff; /* Changer la couleur du texte au survol */
+}
+
+/* Adaptation pour les écrans plus petits */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column; /* Les éléments seront en colonne */
+  }
+
+  nav ul li {
+    margin-bottom: 10px; /* Espacement vertical entre les éléments */
+  }
+}
